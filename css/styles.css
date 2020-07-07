@@ -1,7 +1,6 @@
 body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
-
 }
 
 #title {
@@ -14,7 +13,6 @@ h1 {
   font-weight: 900;
   font-size: 3.5rem;
   line-height: 1.5
-
 }
 
 h2 {
@@ -30,7 +28,6 @@ h2 {
 }
 
 /* Navigation Bar */
-
 .navbar {
   padding: 0 0 4.5rem 0;
 }
@@ -39,7 +36,6 @@ h2 {
   font-family: "Ubuntu";
   font-size: 2.5rem;
   font-weight: bold;
-
 }
 
 .nav-item {
@@ -53,13 +49,11 @@ h2 {
 }
 
 /* Download Buttons */
-
 .download-button {
   margin: 5% 3% 5% 0;
 }
 
 /* Title Image */
-
 .title-image {
   width: 70%;
   transform: rotate(25deg);
@@ -72,6 +66,7 @@ h2 {
   color: #ef8172;
   margin: 50px 0 10px 0;
 }
+
 .feature-icons:hover {
   color: #ff4c68;
 }
@@ -84,25 +79,20 @@ h3 {
 
 p {
   color: #8f8f8f;
-
 }
+
 .feature-box {
   padding: 10% 7% 0%;
   background-color: #fff;
   position: relative;
   bottom: 200px;
-
 }
 
-
 /* Testimonial Sections */
-
 #testimonials {
-
   text-align: center;
   background-color: #ef8172;
   color: #fff;
-
 }
 
 .carousel-item {
@@ -125,45 +115,71 @@ p {
   margin: 40px 40px 50px;
 }
 
-
-
 /* Pricing */
-
 #pricing {
   padding: 10% 5% 5%;
   text-align: center;
-  paddinf-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .pricing-column {
   padding: 3% 2%;
-
 }
 
 /* CTA */
 #cta {
-text-align: center;
-background-color: #f76a8c;
-padding-top: 25px;
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 10% 15%;
 }
 
 .btn {
-    margin-top: 10px;
-    margin-bottom: 20px;
+  margin-top: 100;
+  margin-bottom: 10px;
 }
 
 .footer-notes {
   color: #fff;
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
 }
 
 /* Footer */
-
 #footer {
-  background-color: #f76a8c;
+  background-color: #fff;
   text-align: center;
   font-weight: 100;
+  font-weight: 500;
+}
+
+.footer-icons {
+  margin: 5% auto 2% auto;
+  text-align: center;
 }
 
 .copyright {
-  color: #e4e3e3;
+  color: #888888;
+  padding: 25px;
+}
+
+.icons {
+  padding: 0 20px;
+}
+
+@media (max-width: 1200px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    padding-top: 50px;
+    position: static;
+    transform: rotate(0);
+  }
+
+  .feature-box {
+    position: static;
+    padding-bottom: 10%;
+  }
 }
